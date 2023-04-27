@@ -1,0 +1,25 @@
+require:
+  - rubocop-rspec
+
+RSpec/ContainExactly:
+  Enabled: false # prefers match_array in some cases, which is an alias, and we don't have a strong preference either way
+RSpec/DescribedClass:
+  Enabled: false # we haven't used it, and it seems antithetical to RSpec/NamedSubject
+RSpec/ExampleLength:
+  Enabled: false # this is a Metrics-style cop
+RSpec/ExampleWording:
+  Enabled: false # this is a Metrics-style cop
+RSpec/ExpectInHook:
+  Enabled: false # follows RSpec/MultipleExpectations
+RSpec/MatchArray:
+  Enabled: false # prefers contain_exactly in some cases, which is an alias, and we don't have a strong preference either way
+RSpec/MessageSpies:
+  Enabled: false
+RSpec/MultipleExpectations:
+  Enabled: false # this is a Metrics-style cop
+RSpec/NestedGroups:
+  Enabled: false # this is a Metrics-style cop
+RSpec/NoExpectationExample:
+  Enabled: false # it's okay to simply "assert" that nothing is raised
+RSpec/StubbedMock:
+  Enabled: false # this style goes along with spies
