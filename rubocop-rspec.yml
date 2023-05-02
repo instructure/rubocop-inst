@@ -17,6 +17,8 @@ RSpec/MessageSpies:
   Enabled: false
 RSpec/MultipleExpectations:
   Enabled: false # this is a Metrics-style cop
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false # this is a Metrics-style cop
 RSpec/NestedGroups:
   Enabled: false # this is a Metrics-style cop
 RSpec/NoExpectationExample:
