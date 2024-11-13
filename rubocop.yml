@@ -35,7 +35,7 @@ Naming/HeredocDelimiterNaming:
   # negative regex - these are the _allowed_ delimiters
   # any you add should describe the format of the data, not describe
   # what the data is for. this allows editors to syntax highlight
-  - ^(?!AST|BASE64|CSV|GQL|HTML|JINJA|JS|MD|PEM|REGEX|RUBY|SH|SQL|SRT|TEXT|XML|YAML|PATTERN).+$
+  - ^(?!AST|BASE64|CSV|GQL|HTML|JINJA|JS|MD|PEM|REGEX|RUBY|SH|SQL|SRT|TEXT|TF|XML|YAML|PATTERN).+$
 
 Performance/Casecmp:
   Enabled: false # casecmp(other).zero? is a bad suggestion because it's not Unicode-aware (also it's less clear)
