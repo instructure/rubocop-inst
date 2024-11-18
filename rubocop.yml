@@ -42,6 +42,8 @@ Performance/Casecmp:
 
 Style/Alias:
   EnforcedStyle: prefer_alias_method # https://github.com/rubocop/ruby-style-guide/issues/821
+Style/DateTime:
+  Enabled: true
 Style/EmptyElse:
   EnforcedStyle: empty # explicit nil indicates programmer intent
 Style/FormatStringToken:
