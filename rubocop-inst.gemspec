@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name = "rubocop-inst"
-  spec.version = "1.1.0"
+  spec.version = "1.1.1"
   spec.authors = ["Cody Cutrer"]
   spec.email = ["cody@instructure.com"]
 

@@ -56,6 +56,8 @@ Style/PerlBackrefs:
   Enabled: false # Regexp.last_match(1) is far worse than $1
 Style/RescueStandardError:
   EnforcedStyle: implicit
+Style/SafeNavigationChainLength:
+  Enabled: false # kind of Metrics-y
 Style/StringLiterals:
   EnforcedStyle: double_quotes
 Style/StringLiteralsInInterpolation:
