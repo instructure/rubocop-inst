@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name = "rubocop-inst"
-  spec.version = "1.1.1"
+  spec.version = "1.2.0"
   spec.authors = ["Cody Cutrer"]
   spec.email = ["cody@instructure.com"]
 
@@ -17,8 +17,8 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir["rubocop*.yml"]
 
-  spec.add_dependency "rubocop", "~> 1.50"
-  spec.add_dependency "rubocop-performance", "~> 1.17"
+  spec.add_dependency "rubocop", "~> 1.72", ">= 1.72.1"
+  spec.add_dependency "rubocop-performance", "~> 1.24"
 
-  spec.add_development_dependency "rubocop-rake", "~> 0.6"
+  spec.add_development_dependency "rubocop-rake", "~> 0.7"
 end
