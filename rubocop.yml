@@ -50,6 +50,7 @@ Style/FormatStringToken:
   EnforcedStyle: template
 Style/HashSyntax:
   EnforcedStyle: ruby19_no_mixed_keys
+  EnforcedShorthandSyntax: always
 Style/PercentQLiterals:
   EnforcedStyle: upper_case_q
 Style/PerlBackrefs:
