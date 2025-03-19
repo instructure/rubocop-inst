@@ -7,9 +7,6 @@ AllCops:
   - node_modules/**/*
   - vendor/**/*
 
-Gemspec/DevelopmentDependencies:
-  EnforcedStyle: gemspec
-
 Layout/MultilineArrayLineBreaks:
   Enabled: true
 Layout/MultilineHashKeyLineBreaks:
