@@ -46,6 +46,8 @@ Style/DateTime:
   Enabled: true
 Style/EmptyElse:
   EnforcedStyle: empty # explicit nil indicates programmer intent
+Style/FetchEnvVar:
+  Enabled: false # ENV is a hash, and should be treated as such (including checking if a key exists, if you care)
 Style/FormatStringToken:
   EnforcedStyle: template
 Style/HashSyntax:
